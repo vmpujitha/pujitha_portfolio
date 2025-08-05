@@ -83,10 +83,17 @@ src/
 - **Description**: Modern Android app for exploring and managing favorite movies
 - **GitHub**: [View Repository](https://github.com/vmpujitha/MovieDBApp)
 
+### Weather App
+- **Tech Stack**: Flutter, Dart, HTTP API, OpenWeatherMap API
+- **Description**: Flutter application displaying real-time weather status of different states with dynamic UI updates and state management
+- **Features**: Real-time weather data, temperature display, state-wise updates, clean UI
+- **GitHub**: [View Repository](https://github.com/vmpujitha/WeatherNow)
+
 ## 🏆 Certifications
 
 - **AWS Cloud Practitioner** - Amazon Web Services
 - **Red Hat Certified Developer** - Red Hat
+- **Salesforce Certified AI Associate** - Salesforce
 
 ## 📄 Resume
 
@@ -102,7 +109,7 @@ This project can be deployed on various platforms:
 
 ## 📞 Contact
 
-- **Email**: 2200030040csehonours@gmail.com
+- **Email**: pujithavmjangalapalli@gmail.com
 - **Location**: Guntur, India
 - **LinkedIn**: [Connect with me](https://linkedin.com/in/your-profile)
 - **GitHub**: [View my repositories](https://github.com/vmpujitha)

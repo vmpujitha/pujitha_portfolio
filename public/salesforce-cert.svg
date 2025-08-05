@@ -1,0 +1,29 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#1B96FF" rx="10"/>
+  <rect x="10" y="10" width="380" height="280" fill="white" rx="5"/>
+  
+  <!-- Salesforce Logo Area -->
+  <circle cx="200" cy="60" r="25" fill="#1B96FF"/>
+  <text x="200" y="67" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold">SF</text>
+  
+  <!-- Certificate Title -->
+  <text x="200" y="100" text-anchor="middle" fill="#1B96FF" font-family="Arial, sans-serif" font-size="18" font-weight="bold">SALESFORCE CERTIFIED</text>
+  <text x="200" y="120" text-anchor="middle" fill="#1B96FF" font-family="Arial, sans-serif" font-size="16" font-weight="bold">AI ASSOCIATE</text>
+  
+  <!-- Recipient Name -->
+  <text x="200" y="160" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14">This certifies that</text>
+  <text x="200" y="180" text-anchor="middle" fill="#1B96FF" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Venkata Maruthi Pujitha Jangalapalli</text>
+  <text x="200" y="200" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14">has successfully completed the requirements</text>
+  <text x="200" y="220" text-anchor="middle" fill="#333" font-family="Arial, sans-serif" font-size="14">for Salesforce Certified AI Associate</text>
+  
+  <!-- Date and Certificate ID -->
+  <text x="50" y="260" fill="#666" font-family="Arial, sans-serif" font-size="10">Issue Date: 2024</text>
+  <text x="350" y="260" text-anchor="end" fill="#666" font-family="Arial, sans-serif" font-size="10">Certificate ID: SF-AI-2024</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="50" cy="50" r="3" fill="#1B96FF" opacity="0.3"/>
+  <circle cx="350" cy="50" r="3" fill="#1B96FF" opacity="0.3"/>
+  <circle cx="50" cy="250" r="3" fill="#1B96FF" opacity="0.3"/>
+  <circle cx="350" cy="250" r="3" fill="#1B96FF" opacity="0.3"/>
+</svg>

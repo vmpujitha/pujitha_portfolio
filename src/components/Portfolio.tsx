@@ -21,15 +21,19 @@ import {
   SiMysql, 
   SiFirebase, 
   SiJetpackcompose,
-  SiKotlin
+  SiKotlin,
+  SiFlutter,
+  SiDart
 } from 'react-icons/si';
 import { useToast } from '@/hooks/use-toast';
 
 // Import generated images
 import awsCertImage from '@/assets/aws-cert.jpg';
 import redhatCertImage from '@/assets/redhat-cert.jpg';
+import salesforceCertImage from '@/assets/salesforce.png';
 import travelBuddyImage from '@/assets/travel-buddy-preview.jpg';
 import moviedbImage from '@/assets/moviedb-preview.jpg';
+import weatherNowImage from '/weathernow-preview.svg';
 import resumePDF from '@/assets/VENKATA-MARUTHI-PUJITHA-JANGALAPALLI-RESUME.pdf';
 
 const Portfolio = () => {
@@ -75,11 +79,13 @@ const Portfolio = () => {
     { name: 'Java', icon: FaJava, category: 'Languages' },
     { name: 'Python', icon: FaPython, category: 'Languages' },
     { name: 'Kotlin', icon: SiKotlin, category: 'Languages' },
+    { name: 'Dart', icon: SiDart, category: 'Languages' },
     { name: 'HTML5', icon: FaHtml5, category: 'Frontend' },
     { name: 'CSS3', icon: FaCss3Alt, category: 'Frontend' },
     { name: 'Spring Boot', icon: SiSpringboot, category: 'Backend' },
     { name: 'MySQL', icon: SiMysql, category: 'Database' },
     { name: 'Firebase', icon: SiFirebase, category: 'Mobile' },
+    { name: 'Flutter', icon: SiFlutter, category: 'Mobile' },
     { name: 'Jetpack Compose', icon: SiJetpackcompose, category: 'Mobile' },
     { name: 'Git', icon: FaGitAlt, category: 'Tools' },
     { name: 'GitHub', icon: FaGithub, category: 'Tools' }
@@ -101,6 +107,14 @@ const Portfolio = () => {
       github: 'https://github.com/vmpujitha/MovieDBApp',
       gradient: 'from-green-500 to-teal-600',
       image: moviedbImage
+    },
+    {
+      title: 'Weather App',
+      description: 'A Flutter application that displays real-time weather status of different states. Features dynamic UI updates, state management, and clean user interface for weather forecasting.',
+      tech: ['Flutter', 'Dart', 'HTTP API', 'OpenWeatherMap API'],
+      github: 'https://github.com/vmpujitha/WeatherNow',
+      gradient: 'from-cyan-500 to-blue-600',
+      image: weatherNowImage
     }
   ];
 
@@ -118,6 +132,13 @@ const Portfolio = () => {
       link: 'https://www.credly.com/badges/55de5d9d-c060-40e0-a97e-ac3e38feb5d0',
       color: 'from-red-500 to-pink-600',
       image: redhatCertImage
+    },
+    {
+      title: 'Salesforce Certified AI Associate',
+      issuer: 'Salesforce',
+      link: 'https://trailhead.salesforce.com/en/credentials/certification-detail-print/?searchString=c324oNqelEPFTfTx0tmCY10erPd7upXlMFEX7w33aUo8SiB8OKWoZXk1feZft6KY',
+      color: 'from-blue-500 to-cyan-600',
+      image: salesforceCertImage
     }
   ];
 
@@ -620,7 +641,7 @@ const Portfolio = () => {
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground">Email</p>
-                      <p className="text-foreground">2200030040csehonours@gmail.com</p>
+                      <p className="text-foreground">pujithavmjangalapalli@gmail.com</p>
                     </div>
                   </div>
 
@@ -669,7 +690,7 @@ const Portfolio = () => {
               <div className="glass-card p-8 rounded-2xl text-center">
                 <h3 className="text-2xl font-bold text-foreground mb-6">Get In Touch</h3>
                 <a
-                  href="mailto:2200030040csehonours@gmail.com"
+                  href="mailto:pujithavmjangalapalli@gmail.com"
                   className="inline-flex items-center justify-center w-20 h-20 bg-primary/10 rounded-full hover:bg-primary/20 transition-all duration-300 hover:scale-110 group"
                   title="Send me an email"
                 >
