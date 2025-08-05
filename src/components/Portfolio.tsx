@@ -34,7 +34,7 @@ import salesforceCertImage from '@/assets/salesforce.png';
 import travelBuddyImage from '@/assets/travel-buddy-preview.jpg';
 import moviedbImage from '@/assets/moviedb-preview.jpg';
 import weatherNowImage from '/weathernow-preview.svg';
-import resumePDF from '@/assets/VENKATA-MARUTHI-PUJITHA-JANGALAPALLI-RESUME.pdf';
+import resumePDF from '@/assets/Pujitha_Resume.pdf';
 
 const Portfolio = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -177,7 +177,7 @@ const Portfolio = () => {
   const handleResumeDownload = () => {
     const link = document.createElement('a');
     link.href = resumePDF;
-    link.download = 'Venkata-Maruthi-Pujitha-Jangalapalli-Resume.pdf';
+    link.download = 'Pujitha_Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
